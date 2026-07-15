@@ -164,3 +164,9 @@ app.delete('/biodata/:id', async (req, res) => {
 
 });
 
+// ===========================
+// Jalankan Server
+// ===========================
+app.listen(port, () => {
+    console.log(`Server berjalan di http://localhost:${port}`);
+});
